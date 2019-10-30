@@ -2,7 +2,6 @@
 p{
   font-size:22px;
   color:rgb(109, 198, 0);
-
 }
 
 h1{
@@ -27,7 +26,7 @@ h1{
   display: block;
   padding: 1%; /*this is the distance on the sides*/
   height: 90%; /*this is the distance down the page*/ /*making this vh instead of percent is kinda similar but not at all*/
-  background-color: rgba(255, 255, 255, 1);
+  background-color:#f9eedf;
   border-radius: 2px; /* this is the rounding on the corners*/
   text-align: left;
 }

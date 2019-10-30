@@ -1,0 +1,42 @@
+
+p{
+  font-size:22px;
+  color:rgb(109, 198, 0);
+
+}
+
+h1{
+  color:rgba(109, 198, 0, 1);
+}
+
+.green{
+  color:#519300;
+}
+
+.title{
+  font-family: sans-serif;
+  font-weight: 900;
+  color:#324e6f;
+  text-align: justify;
+}
+
+.overlay {
+  width: 98%;
+  min-width: 30%;
+  margin: 1% auto; /*this is the distance from the top or the last thing before it */
+  display: block;
+  padding: 1%; /*this is the distance on the sides*/
+  height: 90%; /*this is the distance down the page*/ /*making this vh instead of percent is kinda similar but not at all*/
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 2px; /* this is the rounding on the corners*/
+  text-align: left;
+}
+
+.banner{
+
+}
+body {
+  background-color: #cc9966;
+  color: #6f5332;
+  font-family: "Fjalla One", Arial;
+}

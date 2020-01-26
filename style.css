@@ -7,6 +7,12 @@ p{
 h1{
   color:rgba(109, 198, 0, 1);
 }
+th{
+  border: 1px;
+  border-radius: 3px;
+  padding: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
 
 .green{
   color:#519300;
@@ -31,9 +37,18 @@ h1{
   text-align: left;
 }
 
-.banner{
-
+.bannerTable{
+  width: %98;
+  min-width: 30%;
+  margin: 1% auto; /*this is the distance from the top or the last thing before it */
+  display: block;
+  padding: 1%; /*this is the distance on the sides*/
+  height: 90%; /*this is the distance down the page*/ /*making this vh instead of percent is kinda similar but not at all*/
+  border: 1px;
+  border-radius: 2px; /* this is the rounding on the corners*/
+  text-align: left;
 }
+
 body {
   background-color: #cc9966;
   color: #6f5332;
